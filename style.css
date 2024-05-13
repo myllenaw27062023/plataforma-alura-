@@ -1,11 +1,9 @@
-
-
-
-
-
-
-
-
+:root{
+--branco-principal: #FFFFFF;
+--cinza-secundario: #c0c0c0;
+--botao-azul: #167bf7;
+--cor-de-fundo:#00030c;
+}
 
 body{
     background-color: var(--cor-de-fundo);
@@ -13,27 +11,21 @@ body{
     
     }
     .principal {
-    background-image: url("img/bacground.png");
+
+    background-image: url("img/background.png");
     background-repeat: no-repeat ;
-    background-size: contain;
+    background-size:contain ;
     align-items: center;
     text-align: center;
-    
+  
+
     }
+    
     .container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    
-    }
-    
-    .container__botao{
-    background-color: var(--botao-azul);
-    border-radius: 5px;
-    padding: lem;
-    color: var(--branco-principal)
-    display: block;
-    text-decoration: none:
+
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50% 50%;
     
     }
 
